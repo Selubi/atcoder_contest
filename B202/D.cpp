@@ -42,14 +42,13 @@ int main()
         }
         maxl = temp;
     }
-    ll left = 1;
-    ll right = maxl;
-    ll mid, remains;
+    double left = 1;
+    double right = maxl;
+    double mid, remains;
     int countup = 0, countdown = 0;
     while (left <= right)
     {
-        mid = (right + left) / 2LL;
-        remains = (right + left) % 2LL;
+        mid = (right + left) / 2;
         if (K > mid && B > 0)
         {
             cout << "b";
