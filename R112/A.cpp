@@ -14,6 +14,6 @@ int main(){
         else{
         sum=(((R-2*L)+1)*((R-2*L)+2))/2;
         }
-        cout<<sum<<endl;
+        cout<<sum<<end;
     }
 }
